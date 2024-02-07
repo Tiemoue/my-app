@@ -2,11 +2,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import ProductCard from './components/ProductCard'
 
+
 export default function Home() {
   return (
-    <><><main>
-      Hello, World
-    </main><Link href="/users">Users Page</Link></>
-    <ProductCard /></>
+    <main>
+    <Link className='btn btn-square btn-secondary' href="/users">Users Page</Link>
+    </main>
   )
 }
